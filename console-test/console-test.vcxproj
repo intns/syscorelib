@@ -32,7 +32,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='sysCore|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>../syscore/;$(IncludePath)</IncludePath>
+    <IncludePath>../;$(IncludePath)</IncludePath>
     <OutDir>$(SolutionDir)output\</OutDir>
     <IntDir>$(SolutionDir)build-intermediates\</IntDir>
   </PropertyGroup>
@@ -207,7 +207,6 @@
     <ClInclude Include="..\syscore\TimerInf.h" />
     <ClInclude Include="..\syscore\Timers.h" />
     <ClInclude Include="..\syscore\ToolWindow.h" />
-    <ClInclude Include="..\syscore\types.hpp" />
     <ClInclude Include="..\syscore\UIFrame.h" />
     <ClInclude Include="..\syscore\UIMgr.h" />
     <ClInclude Include="..\syscore\UIWindow.h" />
@@ -217,6 +216,7 @@
     <ClInclude Include="..\syscore\VertSplitBar.h" />
     <ClInclude Include="..\syscore\VtxMatrix.h" />
     <ClInclude Include="..\syscore\WSocket.h" />
+    <ClInclude Include="..\types.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

@@ -1,5 +1,5 @@
-#include <Shape.h>
-#include <System.h>
+#include <syscore/Shape.h>
+#include <syscore/System.h>
 #include <iostream>
 
 int main(int argc, char** argv)
