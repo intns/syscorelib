@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="sysCore|Win32">
+      <Configuration>sysCore</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{54bcb65a-b1ce-48a6-a4c5-8887acfc0830}</ProjectGuid>
+    <RootNamespace>consoletest</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='sysCore|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='sysCore|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='sysCore|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>../syscore/;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)output\</OutDir>
+    <IntDir>$(SolutionDir)build-intermediates\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='sysCore|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalOptions>/Zc:strictStrings- %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>../syscore/sysCore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\syscore\AgeServer.h" />
+    <ClInclude Include="..\syscore\AnimCacheInfo.h" />
+    <ClInclude Include="..\syscore\AnimContext.h" />
+    <ClInclude Include="..\syscore\AnimData.h" />
+    <ClInclude Include="..\syscore\AnimDca.h" />
+    <ClInclude Include="..\syscore\AnimDck.h" />
+    <ClInclude Include="..\syscore\AnimFrameCacher.h" />
+    <ClInclude Include="..\syscore\AnimJoint.h" />
+    <ClInclude Include="..\syscore\AnimPalette.h" />
+    <ClInclude Include="..\syscore\AnmobjInfo.h" />
+    <ClInclude Include="..\syscore\ANode.h" />
+    <ClInclude Include="..\syscore\AppWindow.h" />
+    <ClInclude Include="..\syscore\attach_module.h" />
+    <ClInclude Include="..\syscore\AtxCommandStream.h" />
+    <ClInclude Include="..\syscore\AtxDirectRouter.h" />
+    <ClInclude Include="..\syscore\AtxFileStream.h" />
+    <ClInclude Include="..\syscore\AtxRouter.h" />
+    <ClInclude Include="..\syscore\AtxStream.h" />
+    <ClInclude Include="..\syscore\AyuCache.h" />
+    <ClInclude Include="..\syscore\AyuHeap.h" />
+    <ClInclude Include="..\syscore\AyuStack.h" />
+    <ClInclude Include="..\syscore\BaseApp.h" />
+    <ClInclude Include="..\syscore\BaseCollTriInfo.h" />
+    <ClInclude Include="..\syscore\BaseRoomInfo.h" />
+    <ClInclude Include="..\syscore\BaseScalingSystem.h" />
+    <ClInclude Include="..\syscore\BaseShape.h" />
+    <ClInclude Include="..\syscore\BinobjInfo.h" />
+    <ClInclude Include="..\syscore\BoundBox.h" />
+    <ClInclude Include="..\syscore\BufferedInputStream.h" />
+    <ClInclude Include="..\syscore\BufferedOutputStream.h" />
+    <ClInclude Include="..\syscore\BufferedStream.h" />
+    <ClInclude Include="..\syscore\CachedShape.h" />
+    <ClInclude Include="..\syscore\CacheInfo.h" />
+    <ClInclude Include="..\syscore\CacheTexture.h" />
+    <ClInclude Include="..\syscore\CamDataInfo.h" />
+    <ClInclude Include="..\syscore\Camera.h" />
+    <ClInclude Include="..\syscore\ClassicScalingSystem.h" />
+    <ClInclude Include="..\syscore\CmdStream.h" />
+    <ClInclude Include="..\syscore\CollGroup.h" />
+    <ClInclude Include="..\syscore\CollTriInfo.h" />
+    <ClInclude Include="..\syscore\Colour.h" />
+    <ClInclude Include="..\syscore\ComboBox.h" />
+    <ClInclude Include="..\syscore\Controller.h" />
+    <ClInclude Include="..\syscore\ControllerMgr.h" />
+    <ClInclude Include="..\syscore\CoreNode.h" />
+    <ClInclude Include="..\syscore\CullFrustum.h" />
+    <ClInclude Include="..\syscore\CullingPlane.h" />
+    <ClInclude Include="..\syscore\CurveSection.h" />
+    <ClInclude Include="..\syscore\DataChunk.h" />
+    <ClInclude Include="..\syscore\DispList.h" />
+    <ClInclude Include="..\syscore\DlobjInfo.h" />
+    <ClInclude Include="..\syscore\DrawInfo.h" />
+    <ClInclude Include="..\syscore\DynCollObject.h" />
+    <ClInclude Include="..\syscore\EditBox.h" />
+    <ClInclude Include="..\syscore\EditNode.h" />
+    <ClInclude Include="..\syscore\Envelope.h" />
+    <ClInclude Include="..\syscore\FaceNode.h" />
+    <ClInclude Include="..\syscore\FntobjInfo.h" />
+    <ClInclude Include="..\syscore\Font.h" />
+    <ClInclude Include="..\syscore\FontChar.h" />
+    <ClInclude Include="..\syscore\GameApp.h" />
+    <ClInclude Include="..\syscore\GfxInfo.h" />
+    <ClInclude Include="..\syscore\GfxObject.h" />
+    <ClInclude Include="..\syscore\GfxobjInfo.h" />
+    <ClInclude Include="..\syscore\Graphics.h" />
+    <ClInclude Include="..\syscore\HorzSplitBar.h" />
+    <ClInclude Include="..\syscore\ID32.h" />
+    <ClInclude Include="..\syscore\InterpKeyInfo.h" />
+    <ClInclude Include="..\syscore\Joint.h" />
+    <ClInclude Include="..\syscore\KnotPoint.h" />
+    <ClInclude Include="..\syscore\KRect.h" />
+    <ClInclude Include="..\syscore\KSegment.h" />
+    <ClInclude Include="..\syscore\KTri.h" />
+    <ClInclude Include="..\syscore\LFInfo.h" />
+    <ClInclude Include="..\syscore\LFlareGroup.h" />
+    <ClInclude Include="..\syscore\Light.h" />
+    <ClInclude Include="..\syscore\LightCamera.h" />
+    <ClInclude Include="..\syscore\LightDataInfo.h" />
+    <ClInclude Include="..\syscore\LightFlare.h" />
+    <ClInclude Include="..\syscore\LightGroup.h" />
+    <ClInclude Include="..\syscore\LinkedRoomInfo.h" />
+    <ClInclude Include="..\syscore\LodInfo.h" />
+    <ClInclude Include="..\syscore\Material.h" />
+    <ClInclude Include="..\syscore\MaterialHandler.h" />
+    <ClInclude Include="..\syscore\MatobjInfo.h" />
+    <ClInclude Include="..\syscore\Matrix3f.h" />
+    <ClInclude Include="..\syscore\Matrix4f.h" />
+    <ClInclude Include="..\syscore\MemHead.h" />
+    <ClInclude Include="..\syscore\MemInfoNode.h" />
+    <ClInclude Include="..\syscore\Mesh.h" />
+    <ClInclude Include="..\syscore\Module.h" />
+    <ClInclude Include="..\syscore\ModuleMgr.h" />
+    <ClInclude Include="..\syscore\MtxGroup.h" />
+    <ClInclude Include="..\syscore\Node.h" />
+    <ClInclude Include="..\syscore\NodeMgr.h" />
+    <ClInclude Include="..\syscore\ObjCollInfo.h" />
+    <ClInclude Include="..\syscore\ObjMgr.h" />
+    <ClInclude Include="..\syscore\OptionBox.h" />
+    <ClInclude Include="..\syscore\Plane.h" />
+    <ClInclude Include="..\syscore\PVWAlphaAnimInfo.h" />
+    <ClInclude Include="..\syscore\PVWAlphaShortAnimInfo.h" />
+    <ClInclude Include="..\syscore\PVWColourAnimInfo.h" />
+    <ClInclude Include="..\syscore\PVWColourShortAnimInfo.h" />
+    <ClInclude Include="..\syscore\PVWCombiner.h" />
+    <ClInclude Include="..\syscore\PVWKeyInfoF32.h" />
+    <ClInclude Include="..\syscore\PVWKeyInfoS10.h" />
+    <ClInclude Include="..\syscore\PVWKeyInfoU8.h" />
+    <ClInclude Include="..\syscore\PVWLightingInfo.h" />
+    <ClInclude Include="..\syscore\PVWPeInfo.h" />
+    <ClInclude Include="..\syscore\PVWPolygonColourInfo.h" />
+    <ClInclude Include="..\syscore\PVWTevColReg.h" />
+    <ClInclude Include="..\syscore\PVWTevInfo.h" />
+    <ClInclude Include="..\syscore\PVWTevStage.h" />
+    <ClInclude Include="..\syscore\PVWTexAnimInfo.h" />
+    <ClInclude Include="..\syscore\PVWTexGenData.h" />
+    <ClInclude Include="..\syscore\PVWTextureData.h" />
+    <ClInclude Include="..\syscore\PVWTextureInfo.h" />
+    <ClInclude Include="..\syscore\Quat.h" />
+    <ClInclude Include="..\syscore\RamStream.h" />
+    <ClInclude Include="..\syscore\RandomAccessStream.h" />
+    <ClInclude Include="..\syscore\RectArea.h" />
+    <ClInclude Include="..\syscore\RenderWindow.h" />
+    <ClInclude Include="..\syscore\RoomInfo.h" />
+    <ClInclude Include="..\syscore\RouteGroup.h" />
+    <ClInclude Include="..\syscore\RouteLink.h" />
+    <ClInclude Include="..\syscore\RoutePoint.h" />
+    <ClInclude Include="..\syscore\SceneData.h" />
+    <ClInclude Include="..\syscore\Shape.h" />
+    <ClInclude Include="..\syscore\ShapeDynMaterials.h" />
+    <ClInclude Include="..\syscore\ShortColour.h" />
+    <ClInclude Include="..\syscore\ShpobjInfo.h" />
+    <ClInclude Include="..\syscore\SoftImageScalingSystem.h" />
+    <ClInclude Include="..\syscore\SplitBar.h" />
+    <ClInclude Include="..\syscore\SRT.h" />
+    <ClInclude Include="..\syscore\SRTNode.h" />
+    <ClInclude Include="..\syscore\StdSystem.h" />
+    <ClInclude Include="..\syscore\Stream.h" />
+    <ClInclude Include="..\syscore\String.h" />
+    <ClInclude Include="..\syscore\System.h" />
+    <ClInclude Include="..\syscore\TcpStream.h" />
+    <ClInclude Include="..\syscore\TexAttr.h" />
+    <ClInclude Include="..\syscore\TexCacheInfo.h" />
+    <ClInclude Include="..\syscore\TexImg.h" />
+    <ClInclude Include="..\syscore\TexobjInfo.h" />
+    <ClInclude Include="..\syscore\Texture.h" />
+    <ClInclude Include="..\syscore\TextureCacher.h" />
+    <ClInclude Include="..\syscore\TimerInf.h" />
+    <ClInclude Include="..\syscore\Timers.h" />
+    <ClInclude Include="..\syscore\ToolWindow.h" />
+    <ClInclude Include="..\syscore\types.hpp" />
+    <ClInclude Include="..\syscore\UIFrame.h" />
+    <ClInclude Include="..\syscore\UIMgr.h" />
+    <ClInclude Include="..\syscore\UIWindow.h" />
+    <ClInclude Include="..\syscore\Vector2f.h" />
+    <ClInclude Include="..\syscore\Vector2i.h" />
+    <ClInclude Include="..\syscore\Vector3f.h" />
+    <ClInclude Include="..\syscore\VertSplitBar.h" />
+    <ClInclude Include="..\syscore\VtxMatrix.h" />
+    <ClInclude Include="..\syscore\WSocket.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

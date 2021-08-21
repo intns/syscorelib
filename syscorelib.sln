@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "console-test", "console-test\console-test.vcxproj", "{54BCB65A-B1CE-48A6-A4C5-8887ACFC0830}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		sysCore|x86 = sysCore|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54BCB65A-B1CE-48A6-A4C5-8887ACFC0830}.sysCore|x86.ActiveCfg = sysCore|Win32
+		{54BCB65A-B1CE-48A6-A4C5-8887ACFC0830}.sysCore|x86.Build.0 = sysCore|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {367A46C4-9B8A-408F-93FC-D58113965A4D}
+	EndGlobalSection
+EndGlobal
