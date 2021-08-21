@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\sysCore">
+      <UniqueIdentifier>{73a5e9a2-f84a-4acf-847e-fceb6f547bf2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\syscore\UIFrame.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\UIMgr.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\UIWindow.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Vector2f.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Vector2i.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Vector3f.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\VertSplitBar.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\VtxMatrix.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\WSocket.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AgeServer.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AnimCacheInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AnimContext.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AnimData.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AnimDca.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AnimDck.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AnimFrameCacher.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AnimJoint.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AnimPalette.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AnmobjInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\ANode.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AppWindow.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\attach_module.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AtxCommandStream.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AtxDirectRouter.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AtxFileStream.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AtxRouter.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AtxStream.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AyuCache.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AyuHeap.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\AyuStack.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\BaseApp.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\BaseCollTriInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\BaseRoomInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\BaseScalingSystem.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\BaseShape.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\BinobjInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\BoundBox.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\BufferedInputStream.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\BufferedOutputStream.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\BufferedStream.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\CachedShape.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\CacheInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\CacheTexture.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\CamDataInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Camera.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\ClassicScalingSystem.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\CmdStream.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\CollGroup.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\CollTriInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Colour.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\ComboBox.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Controller.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\ControllerMgr.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\CoreNode.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\CullFrustum.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\CullingPlane.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\CurveSection.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\DataChunk.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\DispList.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\DlobjInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\DrawInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\DynCollObject.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\EditBox.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\EditNode.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Envelope.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\FaceNode.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\FntobjInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Font.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\FontChar.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\GameApp.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\GfxInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\GfxObject.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\GfxobjInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Graphics.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\HorzSplitBar.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\ID32.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\InterpKeyInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Joint.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\KnotPoint.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\KRect.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\KSegment.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\KTri.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\LFInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\LFlareGroup.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Light.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\LightCamera.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\LightDataInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\LightFlare.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\LightGroup.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\LinkedRoomInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\LodInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Material.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\MaterialHandler.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\MatobjInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Matrix3f.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Matrix4f.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\MemHead.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\MemInfoNode.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Mesh.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Module.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\ModuleMgr.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\MtxGroup.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Node.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\NodeMgr.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\ObjCollInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\ObjMgr.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\OptionBox.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Plane.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWAlphaAnimInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWAlphaShortAnimInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWColourAnimInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWColourShortAnimInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWCombiner.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWKeyInfoF32.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWKeyInfoS10.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWKeyInfoU8.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWLightingInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWPeInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWPolygonColourInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWTevColReg.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWTevInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWTevStage.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWTexAnimInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWTexGenData.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWTextureData.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\PVWTextureInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Quat.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\RamStream.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\RandomAccessStream.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\RectArea.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\RenderWindow.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\RoomInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\RouteGroup.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\RouteLink.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\RoutePoint.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\SceneData.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Shape.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\ShapeDynMaterials.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\ShortColour.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\ShpobjInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\SoftImageScalingSystem.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\SplitBar.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\SRT.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\SRTNode.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\StdSystem.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Stream.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\String.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\System.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\TcpStream.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\TexAttr.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\TexCacheInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\TexImg.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\TexobjInfo.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Texture.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\TextureCacher.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\TimerInf.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\Timers.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\syscore\ToolWindow.h">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\types.hpp">
+      <Filter>Header Files\sysCore</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

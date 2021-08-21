@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "console-test", "console-test\console-test.vcxproj", "{54BCB65A-B1CE-48A6-A4C5-8887ACFC0830}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dll-test", "dll-test\dll-test.vcxproj", "{B419CFE6-3ABE-4C27-9A1F-10FF976C8F4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		sysCore|x86 = sysCore|x86
@@ -12,6 +14,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{54BCB65A-B1CE-48A6-A4C5-8887ACFC0830}.sysCore|x86.ActiveCfg = sysCore|Win32
 		{54BCB65A-B1CE-48A6-A4C5-8887ACFC0830}.sysCore|x86.Build.0 = sysCore|Win32
+		{B419CFE6-3ABE-4C27-9A1F-10FF976C8F4E}.sysCore|x86.ActiveCfg = sysCore|Win32
+		{B419CFE6-3ABE-4C27-9A1F-10FF976C8F4E}.sysCore|x86.Build.0 = sysCore|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
