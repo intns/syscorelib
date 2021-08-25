@@ -22,11 +22,11 @@ static void print(const char* fmt, ...)
     }
 }
 
-class AxiotPlugin : public GameApp {
+class AxiotPlugin : public BaseApp {
 public:
     AxiotPlugin()
     {
-        m_window = new AppWindow(nullptr, NULL, 0x16CF0000, 0x40000, true);
+        m_window = new AppWindow(nullptr, NULL, 0x16CF0000, 0x40000, false);
         m_window->m_app = this;
 
         RectArea frame(690, 312, 1260, 518);
@@ -45,30 +45,10 @@ public:
         delete m_window;
     }
 
-    virtual int idle()
+    int idle() override
     {
-        sysCurrWnd = m_window->m_hWnd;
-        u32 updateC = idleupdate();
-        sysCurrWnd = 0;
-
-        if (!m_byte28 && !updateC) {
-            return 0;
-        }
-
-        gsys->m_controllerMgr.update();
         m_window->update();
-
-        gsys->m_timer->start("all", false);
-        if (!m_pendingMessage && !m_server) {
-            sysCurrWnd = m_window->m_hWnd;
-            startAgeServer();
-            sysCurrWnd = nullptr;
-
-            m_pendingMessage = true;
-        }
-        gsys->m_timer->stop("all");
-
-        return 1;
+        return 0;
     }
 
     AppWindow* m_window = nullptr;
